@@ -26,11 +26,11 @@ print(metodo6)
 cadena4 = "Python"
 
 cadenaordenada = ''.join(sorted(cadena4))
-print(cadenaordenada)
+print(f"Uso de Join y sorted: {cadenaordenada}")
 
 cadenaordenada = sorted(cadena4)
-print(cadenaordenada)
+print(f"Uso de sorted:{cadenaordenada}")
 
 cadena5 = "Python es un lenguaje de programacion"
 Metodo7 = cadena5.index("lenguaje")
-print(Metodo7)
+print(f"Uso de index para encontrar el lugar de la palabra lenguaje:{Metodo7}")
