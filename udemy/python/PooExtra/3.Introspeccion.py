@@ -1,3 +1,4 @@
+# hasattr es una manera de extraer informacion de una clase de manera mas especifica
 class vehiculo:
     ruedas = 4
     def __init__(self,marca,modelo):
